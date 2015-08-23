@@ -58,6 +58,15 @@ public class NodeUI : MonoBehaviour
         FieldInfo[] fieldInfos = type.GetFields(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Public);
         foreach (var fieldInfo in fieldInfos)
         {
+            // Spawn input fields
+            if (fieldInfo.GetCustomAttributes(typeof(VisualTextUserInputField), true).Length > 0)
+            {
+                GameObject textUserInput = Instantiate(TextUserInputPrefab);
+                textUserInput.transform.SetParent(BodyGroup, false);
+                InputField inputField = textUserInput.GetComponentInChildren<InputField>();
+                inputField.text = "test";
+            }
+
             // Spawn input pins
             if (fieldInfo.GetCustomAttributes(typeof(VisualInputField), true).Length > 0)
             {
@@ -83,7 +92,8 @@ public class NodeUI : MonoBehaviour
                 }
             }
             // Spawn output pins
-            if (fieldInfo.GetCustomAttributes(typeof(VisualOutputField), true).Length > 0)
+            if (fieldInfo.GetCustomAttributes(typeof(VisualOutputField), true).Length > 0 || 
+                fieldInfo.GetCustomAttributes(typeof(VisualTextUserInputField), true).Length > 0)
             {
                 //Debug.Log(fieldInfo.FieldType + " output field " + fieldInfo.Name);
                 GameObject output = Instantiate(OutputPrefab);
@@ -108,6 +118,10 @@ public class NodeUI : MonoBehaviour
                         break;
                     case "ActionObject":
                         outputComponent.Type = AwesomePut.PinType.Action;
+                        break;
+                    case "InputField":
+                        outputComponent.Value = outputComponent.GetComponentInChildren<InputField>();
+                        outputComponent.Type = AwesomePut.PinType.TextInput;
                         break;
                 }
             }

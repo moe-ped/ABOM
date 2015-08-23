@@ -19,6 +19,6 @@ public class AwesomePut : MonoBehaviour
         }
     }
 
-    public enum PinType { Action, Number, String };
+    public enum PinType { Action, Number, String, TextInput };
     public PinType Type;
 }

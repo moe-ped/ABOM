@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class StringNode : Node 
 {
-    [VisualOutputField]
-    StringObject Text = new StringObject("test");
+    [VisualTextUserInputField]
+    InputField Text;
 }

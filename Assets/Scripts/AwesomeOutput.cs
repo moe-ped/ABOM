@@ -39,6 +39,15 @@ public class AwesomeOutput : AwesomePut, IDragHandler, IDropHandler
                     stringObject = otherStringObject;
                     stringObject.Text = originalString;
                     break;
+                case PinType.TextInput:
+                    UnityEngine.UI.InputField otherTextObject = (UnityEngine.UI.InputField)other.Value;
+                    UnityEngine.UI.InputField textObject = (UnityEngine.UI.InputField)Value;
+
+                    string originalText = textObject.text;
+                    Debug.Log(originalText);
+                    textObject = otherTextObject;
+                    textObject.text = originalText;
+                    break;
             }
         }
     }
