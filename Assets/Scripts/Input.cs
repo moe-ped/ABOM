@@ -1,23 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
+using System;
 
-public class InPin : MonoBehaviour, IDragHandler, IDropHandler
+public class Input : Put, IDragHandler, IDropHandler
 {
     public Node Parent;
 
-    void Awake()
-    {
-        Parent = transform.parent.GetComponent<Node>();
-    }
+    // The output this is connected to
+    public Output Output;
+
+    public Action<object> Action;
 
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("drop");
-        OutPin other = eventData.pointerDrag.GetComponent<OutPin>();
+        Output other = eventData.pointerDrag.GetComponent<Output>();
         if (other != null)
         {
-            other.Parent.NextNodes[other.Number] = Parent;
+            other.Input = this;
         }
     }
 

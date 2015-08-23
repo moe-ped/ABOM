@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
-public class LogNode : Node 
+public class MoveNode : Node 
 {
-    private Input ActionInput;
-
     public override void DoStuff()
     {
         base.DoStuff();
-        Debug.Log("log log!");
+
+        //Brain.Unit.Move(direction);
     }
 }

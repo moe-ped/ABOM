@@ -3,7 +3,7 @@ using System.Collections;
 
 public abstract class Node : MonoBehaviour 
 {
-    public Node[] NextNodes;
+    public Brain Brain;
 
 	public virtual void DoStuff ()
     {

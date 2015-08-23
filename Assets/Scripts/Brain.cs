@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Brain : MonoBehaviour {
+public class Brain : MonoBehaviour 
+{
+    public Unit Unit;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Awake () 
+    {
+        Node[] nodes = GetComponentsInChildren<Node>();
+	    foreach (var node in nodes)
+        {
+            node.Brain = this;
+        }
 	}
 }
