@@ -1,0 +1,1023 @@
+fileFormatVersion: 2
+guid: b8dba901a864cc6439cfe97a84870f94
+timeCreated: 1440332745
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: armWhite_long.png
+    21300002: armWhite_short.png
+    21300004: armWhite_shorter.png
+    21300006: armYellow_long.png
+    21300008: armYellow_short.png
+    21300010: armYellow_shorter.png
+    21300012: blueArm_long.png
+    21300014: blueArm_short.png
+    21300016: blueArm_shorter.png
+    21300018: blueShirt1.png
+    21300020: blueShirt2.png
+    21300022: blueShirt3.png
+    21300024: blueShirt4.png
+    21300026: blueShirt5.png
+    21300028: blueShirt6.png
+    21300030: blueShirt7.png
+    21300032: blueShirt8.png
+    21300034: greenArm_long.png
+    21300036: greenArm_short.png
+    21300038: greenArm_shorter.png
+    21300040: greenShirt1.png
+    21300042: greenShirt2.png
+    21300044: greenShirt3.png
+    21300046: greenShirt4.png
+    21300048: greenShirt5.png
+    21300050: greenShirt6.png
+    21300052: greenShirt7.png
+    21300054: greenShirt8.png
+    21300056: greyArm_long.png
+    21300058: greyArm_short.png
+    21300060: greyArm_shorter.png
+    21300062: greyShirt1.png
+    21300064: greyShirt2.png
+    21300066: greyShirt3.png
+    21300068: greyShirt4.png
+    21300070: greyShirt5.png
+    21300072: greyShirt6.png
+    21300074: greyShirt7.png
+    21300076: greyShirt8.png
+    21300078: navyArm_long.png
+    21300080: navyArm_short.png
+    21300082: navyArm_shorter.png
+    21300084: navyShirt1.png
+    21300086: navyShirt2.png
+    21300088: navyShirt3.png
+    21300090: navyShirt4.png
+    21300092: navyShirt5.png
+    21300094: navyShirt6.png
+    21300096: navyShirt7.png
+    21300098: navyShirt8.png
+    21300100: pineArm_long.png
+    21300102: pineArm_short.png
+    21300104: pineArm_shorter.png
+    21300106: pineShirt1.png
+    21300108: pineShirt2.png
+    21300110: pineShirt3.png
+    21300112: pineShirt4.png
+    21300114: pineShirt5.png
+    21300116: pineShirt6.png
+    21300118: pineShirt7.png
+    21300120: pineShirt8.png
+    21300122: redArm_long.png
+    21300124: redArm_short.png
+    21300126: redArm_shorter.png
+    21300128: redShirt1.png
+    21300130: redShirt2.png
+    21300132: redShirt3.png
+    21300134: redShirt4.png
+    21300136: redShirt5.png
+    21300138: redShirt6.png
+    21300140: redShirt7.png
+    21300142: redShirt8.png
+    21300144: shirtYellow1.png
+    21300146: shirtYellow2.png
+    21300148: shirtYellow3.png
+    21300150: shirtYellow4.png
+    21300152: shirtYellow5.png
+    21300154: shirtYellow6.png
+    21300156: shirtYellow7.png
+    21300158: shirtYellow8.png
+    21300160: whiteShirt1.png
+    21300162: whiteShirt2.png
+    21300164: whiteShirt3.png
+    21300166: whiteShirt4.png
+    21300168: whiteShirt5.png
+    21300170: whiteShirt6.png
+    21300172: whiteShirt7.png
+    21300174: whiteShirt8.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: armWhite_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armWhite_short.png
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 38
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armWhite_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 918
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armYellow_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1338
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armYellow_short.png
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 38
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armYellow_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1416
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1906
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1952
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1502
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 482
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 656
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 134
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 308
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1178
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1196
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 38
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 396
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 482
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 656
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 390
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 42
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 830
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1526
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1856
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1588
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 830
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 42
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1352
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 216
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1700
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1526
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 560
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 918
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 216
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1526
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1352
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1700
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1178
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1700
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: navyShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1178
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1622
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1760
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 396
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 830
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1700
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 830
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1352
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 830
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1526
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pineShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 656
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redArm_long.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redArm_short.png
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 38
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redArm_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1674
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1700
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 134
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 308
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 564
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1352
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 656
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1178
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow1.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow2.png
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 482
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow3.png
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 656
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow5.png
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 134
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow6.png
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 308
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow7.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirtYellow8.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1352
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt1.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt2.png
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 482
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt3.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1526
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt4.png
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 738
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt5.png
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 134
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt6.png
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 308
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt7.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteShirt8.png
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1178
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

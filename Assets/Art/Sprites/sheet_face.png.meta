@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: 1e750b6d747c6cc45bbc52a1acce920b
+timeCreated: 1440332707
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blackBrow1.png
+    21300002: blackBrow2.png
+    21300004: blackBrow3.png
+    21300006: blondeBrow1.png
+    21300008: blondeBrow2.png
+    21300010: blondeBrow3.png
+    21300012: brown1Brow1.png
+    21300014: brown1Brow2.png
+    21300016: brown1Brow3.png
+    21300018: brown2Brow1.png
+    21300020: brown2Brow2.png
+    21300022: brown2Brow3.png
+    21300024: eyeBlack_large.png
+    21300026: eyeBlack_small.png
+    21300028: eyeBlue_large.png
+    21300030: eyeBlue_small.png
+    21300032: eyeBrown_large.png
+    21300034: eyeBrown_small.png
+    21300036: eyeGreen_large.png
+    21300038: eyeGreen_small.png
+    21300040: eyePine_large.png
+    21300042: eyePine_small.png
+    21300044: face1.png
+    21300046: face2.png
+    21300048: face3.png
+    21300050: face4.png
+    21300052: greyBrow1.png
+    21300054: greyBrow2.png
+    21300056: greyBrow3.png
+    21300058: mouth_glad.png
+    21300060: mouth_happy.png
+    21300062: mouth_oh.png
+    21300064: mouth_sad.png
+    21300066: mouth_straight.png
+    21300068: mouth_teethLower.png
+    21300070: mouth_teethUpper.png
+    21300072: redBrow1.png
+    21300074: redBrow2.png
+    21300076: redBrow3.png
+    21300078: tanBrow1.png
+    21300080: tanBrow2.png
+    21300082: tanBrow3.png
+    21300084: tint1Nose1.png
+    21300086: tint1Nose2.png
+    21300088: tint1Nose3.png
+    21300090: tint2Nose1.png
+    21300092: tint2Nose2.png
+    21300094: tint2Nose3.png
+    21300096: tint3Nose1.png
+    21300098: tint3Nose2.png
+    21300100: tint3Nose3.png
+    21300102: tint4Nose1.png
+    21300104: tint4Nose2.png
+    21300106: tint4Nose3.png
+    21300108: tint5Nose1.png
+    21300110: tint5Nose2.png
+    21300112: tint5Nose3.png
+    21300114: tint6Nose1.png
+    21300116: tint6Nose2.png
+    21300118: tint6Nose3.png
+    21300120: tint7Nose1.png
+    21300122: tint7Nose2.png
+    21300124: tint7Nose3.png
+    21300126: tint8Nose1.png
+    21300128: tint8Nose2.png
+    21300130: tint8Nose3.png
+    21300132: whiteBrow1.png
+    21300134: whiteBrow2.png
+    21300136: whiteBrow3.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blackBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 66
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 100
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blondeBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blondeBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blondeBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown1Brow1.png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown1Brow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown1Brow3.png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Brow1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Brow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Brow3.png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBlack_large.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 225
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBlack_small.png
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 328
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBlue_large.png
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 126
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBlue_small.png
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 260
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBrown_large.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeBrown_small.png
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 344
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeGreen_large.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 162
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyeGreen_small.png
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 281
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyePine_large.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 183
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eyePine_small.png
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 312
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 112
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_glad.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 246
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_happy.png
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 78
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_oh.png
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 297
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_sad.png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_straight.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_teethLower.png
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 104
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth_teethUpper.png
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 46
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 134
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 83
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 134
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 423
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 318
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 399
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 30
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 339
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 375
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 276
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 488
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 261
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 297
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 69
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 360
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 204
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 464
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 449
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 162
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 45
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8Nose1.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 183
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8Nose2.png
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 93
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8Nose3.png
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 147
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteBrow1.png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 12
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteBrow2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whiteBrow3.png
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 117
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

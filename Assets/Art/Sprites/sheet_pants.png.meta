@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: 88fce2ca74d3274438d208a40f25dfe2
+timeCreated: 1440332757
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: legYellow_long.png
+    21300002: legYellow_short.png
+    21300004: legYellow_shorter.png
+    21300006: pantsBlue11.png
+    21300008: pantsBlue12.png
+    21300010: pantsBlue13.png
+    21300012: pantsBlue14.png
+    21300014: pantsBlue1_long.png
+    21300016: pantsBlue1_short.png
+    21300018: pantsBlue1_shorter.png
+    21300020: pantsBlue21.png
+    21300022: pantsBlue22.png
+    21300024: pantsBlue23.png
+    21300026: pantsBlue24.png
+    21300028: pantsBlue2_long.png
+    21300030: pantsBlue2_short.png
+    21300032: pantsBlue2_shorter.png
+    21300034: pantsBrown1.png
+    21300036: pantsBrown2.png
+    21300038: pantsBrown3.png
+    21300040: pantsBrown4.png
+    21300042: pantsBrown_long.png
+    21300044: pantsBrown_short.png
+    21300046: pantsBrown_shorter.png
+    21300048: pantsGreen1.png
+    21300050: pantsGreen2.png
+    21300052: pantsGreen3.png
+    21300054: pantsGreen4.png
+    21300056: pantsGreen_long.png
+    21300058: pantsGreen_short.png
+    21300060: pantsGreen_shorter.png
+    21300062: pantsGrey1.png
+    21300064: pantsGrey2.png
+    21300066: pantsGrey3.png
+    21300068: pantsGrey4.png
+    21300070: pantsGrey_long.png
+    21300072: pantsGrey_short.png
+    21300074: pantsGrey_shorter.png
+    21300076: pantsLightBlue1.png
+    21300078: pantsLightBlue2.png
+    21300080: pantsLightBlue3.png
+    21300082: pantsLightBlue4.png
+    21300084: pantsLightBlue_long.png
+    21300086: pantsLightBlue_short.png
+    21300088: pantsLightBlue_shorter.png
+    21300090: pantsNavy1.png
+    21300092: pantsNavy2.png
+    21300094: pantsNavy3.png
+    21300096: pantsNavy4.png
+    21300098: pantsNavy_long.png
+    21300100: pantsNavy_short.png
+    21300102: pantsNavy_shorter.png
+    21300104: pantsPine1.png
+    21300106: pantsPine2.png
+    21300108: pantsPine3.png
+    21300110: pantsPine4.png
+    21300112: pantsPine_long.png
+    21300114: pantsPine_short.png
+    21300116: pantsPine_shorter.png
+    21300118: pantsRed1.png
+    21300120: pantsRed2.png
+    21300122: pantsRed3.png
+    21300124: pantsRed4.png
+    21300126: pantsRed_long.png
+    21300128: pantsRed_short.png
+    21300130: pantsRed_shorter.png
+    21300132: pantsTan1.png
+    21300134: pantsTan2.png
+    21300136: pantsTan3.png
+    21300138: pantsTan4.png
+    21300140: pantsTan_long.png
+    21300142: pantsTan_short.png
+    21300144: pantsTan_shorter.png
+    21300146: pantsWhite1.png
+    21300148: pantsWhite2.png
+    21300150: pantsWhite3.png
+    21300152: pantsWhite4.png
+    21300154: pantsWhite_long.png
+    21300156: pantsWhite_short.png
+    21300158: pantsWhite_shorter.png
+    21300160: pantsYellow1.png
+    21300162: pantsYellow2.png
+    21300164: pantsYellow3.png
+    21300166: pantsYellow4.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: legYellow_long.png
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 244
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: legYellow_short.png
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 788
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: legYellow_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 801
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue11.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue12.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue13.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue1_long.png
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 410
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue1_short.png
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 124
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue1_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 486
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue21.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue22.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue23.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue24.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue2_long.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 576
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue2_short.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 6
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBlue2_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 919
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 695
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 742
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown_long.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 692
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown_short.png
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 670
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsBrown_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 276
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 883
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen_long.png
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 78
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen_short.png
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 434
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGreen_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 696
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 789
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 648
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey4.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 930
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey_long.png
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 858
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey_short.png
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 552
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsGrey_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 329
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 695
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue3.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 742
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue4.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 601
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue_long.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 360
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue_short.png
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 242
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsLightBlue_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 14
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 178
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 272
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy3.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 131
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy4.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 977
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy_long.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 526
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy_short.png
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 906
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsNavy_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 119
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 319
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 37
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine3.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 84
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine4.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 836
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine_long.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 78
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine_short.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 124
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsPine_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 224
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed1.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 742
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed2.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 789
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed3.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 883
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed4.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 225
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed_long.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 244
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed_short.png
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 242
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsRed_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 171
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 977
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 554
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan_long.png
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 576
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan_short.png
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 906
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsTan_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 591
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 366
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 413
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite3.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 460
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite4.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 507
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite_long.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 410
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite_short.png
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 6
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsWhite_shorter.png
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 381
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsYellow1.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 836
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsYellow2.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 883
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsYellow3.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 930
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pantsYellow4.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 977
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
