@@ -37,8 +37,9 @@ public class NodeUI : MonoBehaviour
                 AwesomeInput inputComponent = input.GetComponent<AwesomeInput>();
                 //RuntimeMethodHandle handle = methodInfo.MethodHandle;
                 ActionObject actionObject = new ActionObject();
-                actionObject.Action = () => { methodInfo.Invoke(Node, null); };
-                actionObject.Action();
+                //actionObject.Action = () => { methodInfo.Invoke(Node, null); };
+                actionObject.Action = (Action) Action.CreateDelegate(typeof(Action), Node, methodInfo);
+                //actionObject.Action();
                 inputComponent.Value = actionObject;
                 inputComponent.Name = methodInfo.Name;
                 inputComponent.Type = AwesomePut.PinType.Action;
@@ -95,11 +96,17 @@ public class NodeUI : MonoBehaviour
                         outputComponent.Type = AwesomePut.PinType.Number;
                         break;
                     case "ActionObject":
-                        Debug.Log("AAAAAAAAND ... ACTION! " + fieldInfo.ReflectedType);
+                        //Debug.Log("AAAAAAAAND ... ACTION! " + fieldInfo.ReflectedType);
                         // Test
-                        ActionObject actionObject = (ActionObject)outputComponent.Value;
-                        actionObject.Action();
+                        /*ActionObject actionObject = (ActionObject)outputComponent.Value;
 
+                        // Test
+                        var fieldAction = (ActionObject)fieldInfo.GetValue(Node);
+                        actionObject.Action = () => { Debug.Log("jhasgdasgdjasgjk"); };
+                        fieldAction.Action();
+
+                        //actionObject.Action();
+                        */
                         outputComponent.Type = AwesomePut.PinType.Action;
                         break;
                 }

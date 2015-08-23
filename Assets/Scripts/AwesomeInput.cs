@@ -3,14 +3,12 @@ using System.Collections;
 using UnityEngine.EventSystems;
 using System;
 
-public class AwesomeInput : AwesomePut, IDragHandler, IDropHandler
+public class AwesomeInput : AwesomePut, IDragHandler, IDropHandler, IPointerClickHandler
 {
     public object Value;
 
     // The output this is connected to
     public AwesomeOutput Output;
-
-    public Action<object> Action;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -33,6 +31,10 @@ public class AwesomeInput : AwesomePut, IDragHandler, IDropHandler
 
                     ActionObject otherActionObject = (ActionObject)other.Value;
                     ActionObject actionObject = (ActionObject)Value;
+
+                    otherActionObject.Action();
+                    actionObject.Action();
+
                     otherActionObject.Action = actionObject.Action;
 
                     otherActionObject.Action();
@@ -46,5 +48,19 @@ public class AwesomeInput : AwesomePut, IDragHandler, IDropHandler
     public void OnDrag(PointerEventData eventData)
     {
         
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        switch (Type)
+        {
+            case PinType.Action:
+                Debug.Log("Action!");
+
+                ActionObject actionObject = (ActionObject)Value;
+                actionObject.Action();
+
+                break;
+        }
     }
 }
