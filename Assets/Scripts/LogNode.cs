@@ -1,13 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class LogNode : Node 
 {
-    private Input ActionInput;
+    [VisualInputField]
+    public StringObject Text = new StringObject();
 
-    public override void DoStuff()
+    [VisualOutputField]
+    public ActionObject Next = new ActionObject();
+
+    public override void Activate()
     {
-        base.DoStuff();
-        Debug.Log("log log!");
+        base.Activate();
+        Debug.Log("logging " + Text.Text);
+        try
+        {
+            Next.Action();
+        }
+        catch (Exception e)
+        {
+            Debug.Log ("output not set up properly: " + e.Message);
+        }
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class MoveNode : Node 
 {
-    public override void DoStuff()
+    public override void Activate()
     {
-        base.DoStuff();
+        base.Activate();
 
         //Brain.Unit.Move(direction);
     }

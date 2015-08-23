@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class StartNode : Node 
 {
-    void Awake ()
+    [VisualOutputField]
+    public ActionObject Next = new ActionObject();
+
+    // Test
+    void Start ()
     {
-        
     }
 
-	void Update () 
+    void Update ()
     {
-
-	}
+        if (Next != null)
+        {
+            Next.Action();
+        }
+    }
 }

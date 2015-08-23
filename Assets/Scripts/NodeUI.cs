@@ -9,6 +9,8 @@ public class NodeUI : MonoBehaviour
     public GameObject InputPrefab;
     public Transform OutputGroup;
     public GameObject OutputPrefab;
+    public Transform BodyGroup;
+    public GameObject TextUserInputPrefab;
 
     private Node Node;
 
@@ -22,23 +24,85 @@ public class NodeUI : MonoBehaviour
     private void SetupUI ()
     {
         Type type = Node.GetType();
-        FieldInfo[] infos = type.GetFields(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Public);
-        
-        foreach (var info in infos)
+        MethodInfo[] methodInfos = type.GetMethods ();
+        foreach (var methodInfo in methodInfos)
         {
             // Spawn input pins
-            if (info.FieldType == typeof(Input))
+            if (methodInfo.GetCustomAttributes(typeof(VisualMethod), true).Length > 0)
             {
+                //Debug.Log(methodInfo.ReturnType + " input field " + methodInfo.Name);
                 GameObject input = Instantiate(InputPrefab);
                 input.transform.SetParent(InputGroup, false);
 
-                Input inputComponent = input.GetComponent<Input>();
+                AwesomeInput inputComponent = input.GetComponent<AwesomeInput>();
+                //RuntimeMethodHandle handle = methodInfo.MethodHandle;
+                ActionObject actionObject = new ActionObject();
+                actionObject.Action = () => { methodInfo.Invoke(Node, null); };
+                actionObject.Action();
+                inputComponent.Value = actionObject;
+                inputComponent.Name = methodInfo.Name;
+                inputComponent.Type = AwesomePut.PinType.Action;
             }
-            // Spawn output pins
-            if (info.FieldType == typeof(Output))
+        }
+
+        FieldInfo[] fieldInfos = type.GetFields(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Public);
+        foreach (var fieldInfo in fieldInfos)
+        {
+            // Spawn input pins
+            if (fieldInfo.GetCustomAttributes(typeof(VisualInputField), true).Length > 0)
             {
+                //Debug.Log(fieldInfo.FieldType + " input field " + fieldInfo.Name);
                 GameObject input = Instantiate(InputPrefab);
                 input.transform.SetParent(InputGroup, false);
+
+                AwesomeInput inputComponent = input.GetComponent<AwesomeInput>();
+                inputComponent.Value = fieldInfo.GetValue(Node);
+                inputComponent.Name = fieldInfo.Name;
+                //Debug.Log(inputComponent.Value.ToString());
+                switch (fieldInfo.FieldType.ToString())
+                {
+                    case "String":
+                        inputComponent.Type = AwesomePut.PinType.String;
+                        break;
+                    case "Float":
+                        inputComponent.Type = AwesomePut.PinType.Number;
+                        break;
+                    case "Int":
+                        inputComponent.Type = AwesomePut.PinType.Number;
+                        break;
+                }
+            }
+            // Spawn output pins
+            if (fieldInfo.GetCustomAttributes(typeof(VisualOutputField), true).Length > 0)
+            {
+                //Debug.Log(fieldInfo.FieldType + " output field " + fieldInfo.Name);
+                GameObject output = Instantiate(OutputPrefab);
+                output.transform.SetParent(OutputGroup, false);
+
+                AwesomeOutput outputComponent = output.GetComponent<AwesomeOutput>();
+                outputComponent.Value = fieldInfo.GetValue(Node);
+                outputComponent.Name = fieldInfo.Name;
+                //Debug.Log(outputComponent.Value.ToString());
+                switch (fieldInfo.FieldType.ToString())
+                {
+                    case "String":
+                        outputComponent.Type = AwesomePut.PinType.String;
+                        break;
+                    case "Float":
+                        outputComponent.Type = AwesomePut.PinType.Number;
+                        break;
+                    case "Int":
+                        outputComponent.Type = AwesomePut.PinType.Number;
+                        break;
+                    case "ActionObject":
+                        Debug.Log("AAAAAAAAND ... ACTION! " + fieldInfo.ReflectedType);
+                        // Test
+                        ActionObject actionObject = (ActionObject)outputComponent.Value;
+                        actionObject.Action();
+
+                        outputComponent.Type = AwesomePut.PinType.Action;
+                        break;
+                }
             }
         }
     }
