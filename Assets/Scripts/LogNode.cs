@@ -13,14 +13,17 @@ public class LogNode : Node
     public override void Activate()
     {
         base.Activate();
-        Debug.Log("logging " + Text.Text);
+        if (Text.Text != "") 
+        {
+            Debug.Log(Text.Text);
+        }
         try
         {
             Next.Action();
         }
         catch (Exception e)
         {
-            Debug.Log ("output not set up properly: " + e.Message);
+            //Debug.Log ("output not set up properly: " + e.Message);
         }
     }
 }

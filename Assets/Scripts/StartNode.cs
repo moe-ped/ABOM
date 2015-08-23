@@ -14,7 +14,7 @@ public class StartNode : Node
 
     void Update ()
     {
-        if (Next != null)
+        if (Next != null && Next.Action != null)
         {
             Next.Action();
         }

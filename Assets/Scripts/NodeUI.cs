@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Reflection;
 using System;
+using UnityEngine.UI;
 
 public class NodeUI : MonoBehaviour 
 {
@@ -11,6 +12,7 @@ public class NodeUI : MonoBehaviour
     public GameObject OutputPrefab;
     public Transform BodyGroup;
     public GameObject TextUserInputPrefab;
+    public GameObject NamePrefab;
 
     private Node Node;
 
@@ -24,6 +26,13 @@ public class NodeUI : MonoBehaviour
     private void SetupUI ()
     {
         Type type = Node.GetType();
+
+        // Spawn name label
+        GameObject name = Instantiate(NamePrefab);
+        name.transform.SetParent(BodyGroup, false);
+        Text text = name.GetComponent<Text>();
+        text.text = type.Name;
+
         MethodInfo[] methodInfos = type.GetMethods ();
         foreach (var methodInfo in methodInfos)
         {
@@ -62,7 +71,7 @@ public class NodeUI : MonoBehaviour
                 //Debug.Log(inputComponent.Value.ToString());
                 switch (fieldInfo.FieldType.ToString())
                 {
-                    case "String":
+                    case "StringObject":
                         inputComponent.Type = AwesomePut.PinType.String;
                         break;
                     case "Float":
@@ -86,7 +95,9 @@ public class NodeUI : MonoBehaviour
                 //Debug.Log(outputComponent.Value.ToString());
                 switch (fieldInfo.FieldType.ToString())
                 {
-                    case "String":
+                    case "StringObject":
+                        StringObject stringObject = (StringObject)outputComponent.Value;
+                        Debug.Log(stringObject.Text);
                         outputComponent.Type = AwesomePut.PinType.String;
                         break;
                     case "Float":
@@ -96,17 +107,6 @@ public class NodeUI : MonoBehaviour
                         outputComponent.Type = AwesomePut.PinType.Number;
                         break;
                     case "ActionObject":
-                        //Debug.Log("AAAAAAAAND ... ACTION! " + fieldInfo.ReflectedType);
-                        // Test
-                        /*ActionObject actionObject = (ActionObject)outputComponent.Value;
-
-                        // Test
-                        var fieldAction = (ActionObject)fieldInfo.GetValue(Node);
-                        actionObject.Action = () => { Debug.Log("jhasgdasgdjasgjk"); };
-                        fieldAction.Action();
-
-                        //actionObject.Action();
-                        */
                         outputComponent.Type = AwesomePut.PinType.Action;
                         break;
                 }

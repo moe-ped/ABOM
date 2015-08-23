@@ -26,17 +26,18 @@ public class AwesomeOutput : AwesomePut, IDragHandler, IDropHandler
             switch (Type)
             {
                 case PinType.Action:
-                    // Test
-                    Debug.Log("Action!");
                     ActionObject otherActionObject = (ActionObject)other.Value;
                     ActionObject actionObject = (ActionObject)Value;
-
-                    otherActionObject.Action();
-                    actionObject.Action();
-
                     actionObject.Action = otherActionObject.Action;
-                    otherActionObject.Action();
-                    actionObject.Action();
+                    break;
+                case PinType.String:
+                    StringObject otherStringObject = (StringObject)other.Value;
+                    StringObject stringObject = (StringObject)Value;
+
+                    string originalString = stringObject.Text;
+                    Debug.Log(originalString);
+                    stringObject = otherStringObject;
+                    stringObject.Text = originalString;
                     break;
             }
         }

@@ -27,19 +27,18 @@ public class AwesomeInput : AwesomePut, IDragHandler, IDropHandler, IPointerClic
             switch (Type)
             {
                 case PinType.Action:
-                    Debug.Log("Action!");
-
                     ActionObject otherActionObject = (ActionObject)other.Value;
                     ActionObject actionObject = (ActionObject)Value;
-
-                    otherActionObject.Action();
-                    actionObject.Action();
-
                     otherActionObject.Action = actionObject.Action;
+                    break;
+                case PinType.String:
+                    StringObject otherStringObject = (StringObject)other.Value;
+                    StringObject stringObject = (StringObject)Value;
 
-                    otherActionObject.Action();
-                    actionObject.Action();
-
+                    string originalString = otherStringObject.Text;
+                    Debug.Log(originalString);
+                    otherStringObject = stringObject;
+                    otherStringObject.Text = originalString;
                     break;
             }
         }
