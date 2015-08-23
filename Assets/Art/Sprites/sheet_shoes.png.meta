@@ -1,9 +1,44 @@
 fileFormatVersion: 2
 guid: 4f69b6dc590b86b42842868d099f4f02
-timeCreated: 1440332412
+timeCreated: 1440334474
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: blackShoe1.png
+    21300002: blackShoe2.png
+    21300004: blackShoe3.png
+    21300006: blackShoe4.png
+    21300008: blackShoe5.png
+    21300010: blueShoe1.png
+    21300012: blueShoe2.png
+    21300014: blueShoe3.png
+    21300016: blueShoe4.png
+    21300018: blueShoe5.png
+    21300020: brown2Shoe1.png
+    21300022: brown2Shoe2.png
+    21300024: brown2Shoe3.png
+    21300026: brown2Shoe4.png
+    21300028: brown2Shoe5.png
+    21300030: brownShoe1.png
+    21300032: brownShoe2.png
+    21300034: brownShoe3.png
+    21300036: brownShoe4.png
+    21300038: brownShoe5.png
+    21300040: greyShoe1.png
+    21300042: greyShoe2.png
+    21300044: greyShoe3.png
+    21300046: greyShoe4.png
+    21300048: greyShoe5.png
+    21300050: redShoe1.png
+    21300052: redShoe2.png
+    21300054: redShoe3.png
+    21300056: redShoe4.png
+    21300058: redShoe5.png
+    21300060: tanShoe1.png
+    21300062: tanShoe2.png
+    21300064: tanShoe3.png
+    21300066: tanShoe4.png
+    21300068: tanShoe5.png
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +65,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +83,357 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: blackShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blackShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Shoe1.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 260
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Shoe2.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 302
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Shoe3.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 344
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Shoe4.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 386
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brown2Shoe5.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 428
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brownShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 260
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brownShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 92
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brownShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 134
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brownShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 176
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: brownShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 218
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 470
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 8
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 50
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 92
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greyShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 134
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 176
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 218
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 50
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 302
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 344
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanShoe1.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 386
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanShoe2.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 428
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanShoe3.png
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 470
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanShoe4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tanShoe5.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

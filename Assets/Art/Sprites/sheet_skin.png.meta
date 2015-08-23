@@ -1,9 +1,49 @@
 fileFormatVersion: 2
 guid: 38f2217db7cb1da4da72dbc3c49aff5e
-timeCreated: 1440332412
+timeCreated: 1440334110
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tint1_arm.png
+    21300002: tint1_hand.png
+    21300004: tint1_head.png
+    21300006: tint1_leg.png
+    21300008: tint1_neck.png
+    21300010: tint2_arm.png
+    21300012: tint2_hand.png
+    21300014: tint2_head.png
+    21300016: tint2_leg.png
+    21300018: tint2_neck.png
+    21300020: tint3_arm.png
+    21300022: tint3_hand.png
+    21300024: tint3_head.png
+    21300026: tint3_leg.png
+    21300028: tint3_neck.png
+    21300030: tint4_arm.png
+    21300032: tint4_hand.png
+    21300034: tint4_head.png
+    21300036: tint4_leg.png
+    21300038: tint4_neck.png
+    21300040: tint5_arm.png
+    21300042: tint5_hand.png
+    21300044: tint5_head.png
+    21300046: tint5_leg.png
+    21300048: tint5_neck.png
+    21300050: tint6_arm.png
+    21300052: tint6_hand.png
+    21300054: tint6_head.png
+    21300056: tint6_leg.png
+    21300058: tint6_neck.png
+    21300060: tint7_arm.png
+    21300062: tint7_hand.png
+    21300064: tint7_head.png
+    21300066: tint7_leg.png
+    21300068: tint7_neck.png
+    21300070: tint8_arm.png
+    21300072: tint8_hand.png
+    21300074: tint8_head.png
+    21300076: tint8_leg.png
+    21300078: tint8_neck.png
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +70,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +88,407 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tint1_arm.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 280
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1_hand.png
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 45
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1_head.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 856
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1_leg.png
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 823
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint1_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 243
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2_arm.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 416
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2_hand.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 752
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2_leg.png
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint2_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 58
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3_arm.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 416
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3_hand.png
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 752
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3_leg.png
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 495
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint3_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 132
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4_arm.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 552
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4_hand.png
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 953
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4_leg.png
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 331
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint4_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 169
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5_arm.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 552
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5_hand.png
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 882
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5_leg.png
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 659
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint5_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 21
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6_arm.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 144
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6_hand.png
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 882
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6_leg.png
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 167
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint6_neck.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 987
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7_arm.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 8
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7_hand.png
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 811
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7_head.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 688
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7_leg.png
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 116
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint7_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 206
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8_arm.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 280
+        width: 170
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8_hand.png
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 953
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8_head.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8_leg.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 823
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tint8_neck.png
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 95
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
